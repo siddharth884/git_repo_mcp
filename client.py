@@ -55,7 +55,7 @@ async def main():
                 )
                 
                 print("\n Tool Result:", result)
-                print("\n--- Test complete. This tool is ready for your resume! ---")
+                print("\n--- Test complete. ---")
             except Exception as e:
                 print(f" Error while invoking tool: {e}")
         else:
